@@ -1,0 +1,16 @@
+body{
+	background: #eee !important;
+}
+
+nav{
+	background: #fff;
+	color: #df5e30 !important;
+}
+
+#nav-mobile li a{
+	color: #df5e30;
+}
+
+.card .card-action a{
+	color: #df5e30;
+}
