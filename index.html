@@ -7,46 +7,43 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
-    <title>Freeside</title>
+    <title>Freeside Panel</title>
 </head>
 <body>
     <nav>
         <div class="container nav-wrapper">
-            <a href="#" class="brand-logo"><img style="position: absolute; top: 0; left: 0; height: 70px;" class="hide-on-med-and-down" src="assets/img/logo.svg"></a>
+            <a href="#" class="brand-logo hide-on-med-and-down"><img src="assets/img/logo.svg"></a>
             <ul id="nav-mobile" class="right">
-                <li><a href="/">Services</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Add Services</a></li>
+                <li><a href="/">My Services</a></li>
             </ul>
         </div>
     </nav>
     <div class="container">
 
-        <div class="row">
+      <div class="row">
+            <div class="col s12 cards-container">
             <div class="card">
                 <div class="card-content">
-                    <h4>Choose a service</h4>
-                    <h5>You can have a maximum of 2 services.</h5>
+                    <h5>Choose a service</h5>
+                    <p>You can have a maximum of 2 services. You are currently using 1 of 2.</p>
                 </div>
             </div>
-        </div>
-        <div class="row">
-
-            <div class="col s12 m6">
                 <div class="card">
                     <div class="card-image">
                         <img src="assets/img/exampleblog.jpg">
                         <span class="card-title">Website</span>
                     </div>
                     <div class="card-content desc">
-                        <p>A website is your own little space on the internet you can host a blog, forum or anything else and takes very little skill to use.</p>
+                        <p>A website is your own little space on the internet you can host anything from a blog, forum or a simple page. It takes little effort to create a website.</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Create</a>
-                        <a href="#">Edit</a>
+                        <a href="#">View</a>
                     </div>
                 </div>
-            </div>
 
-            <div class="col s12 m6">
                 <div class="card">
                     <div class="card-image">
                         <img src="assets/img/minecraft.png">
@@ -57,27 +54,44 @@
                     </div>
                     <div class="card-action">
                         <a href="#">Create</a>
-                        <a href="#">Edit</a>
                     </div>
                 </div>
-            </div>
 
-            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://www.mumble.com/static/en/img/screen-shot-2.png">
+                        <span class="card-title">VOIP Server</span>
+                    </div>
+                    <div class="card-content desc">
+                        <p>Mumble or Teamspeak server.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Create</a>
+                    </div>
+                </div>
+
                 <div class="card">
                     <div class="card-image">
                         <img src="assets/img/terminal.png">
                         <span class="card-title">VPS</span>
                     </div>
                     <div class="card-content desc">
-                        <p>A VPS is a full linux(or windows) operating system that lets you host whatever you want such as game server, websites and scripts. This may require a bit more knowledge to get started but check out <a href="">this guide </a>and feel free to ask for help on the <a href="">forum</a>.</p>
+                        <p>A VPS is a full linux(or windows) operating system in a virtual enviroment that lets you host whatever you want such as game servers, websites and scripts. This may require a bit more knowledge to get started but check out <a href="">this guide </a>and feel free to ask for help on the <a href="">forum</a>. Each server has 2 cores and 2GB of of RAM with 30GB of hard drive space. Contact us if you think you may need more</p>
                     </div>
                     <div class="card-action">
                         <a href="#">Create</a>
-                        <a href="#">Edit</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content desc">
+                        <p>Want a service that is not on here making? Contact us and we may be able to hook you up</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Contact</a>
                     </div>
                 </div>
             </div>
-        </div>
+
 
         <div class="footer">
             <div class="row">
@@ -90,5 +104,5 @@
 
 <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-<script src="assets/js/app.js"></script>
+<!--<script src="assets/js/app.js"></script>-->
 </html>
